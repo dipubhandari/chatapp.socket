@@ -12,7 +12,6 @@ function App() {
   const [username, setUsername] = useState('')
 
   const getUsername = function (username) {
-    alert("Welcome to the chat " + username)
     setUsername(username)
   }
 
